@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gacha Macro</string>
+    <string name="accessibility_description">터치와 스와이프 매크로 실행을 위한 접근성 서비스</string>
+</resources>
