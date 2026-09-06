@@ -157,7 +157,7 @@ class MainActivity : Activity() {
             val count = slots.count { slot ->
                 TemplateMatcher.similarity(slot, template) >= 0.72
             }
-            "$name: $count개"
+            "$name: ${count}개"
         }
         status.text = "분석 결과\n" + lines.joinToString("\n")
     }
